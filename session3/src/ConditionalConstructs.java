@@ -12,13 +12,20 @@ public class ConditionalConstructs {
 		System.out.println("hello "+name);
 		
 		
-		System.out.println("Enter an Amount: ");
-		double amount = scanner.nextDouble();
-			System.out.println("Your Amount Is : \u20b9"+amount);
+		System.out.println("Enter Your Age:)  ");
+	      int age = scanner.nextInt();
 		
-		System.out.println("Enter Your PROMOCODE: ");
-		String promocode = scanner.nextLine();
 		
+		 if (age<=18) {
+			 System.out.println("You are Below 18, So You can Not Watch "
+			 		+ "This Movie BCZ This Movie Is 18+ ");
+			
+		}
+		 else {
+			
+			 System.out.println("WELCOME SIR ! Enjoy The Movie ");
+		 }
+			
 
 	}
 
