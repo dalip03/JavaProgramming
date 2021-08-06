@@ -1,15 +1,9 @@
 
 class Maths{
-	static int logic(int a, int b) {
-		int c;
-		if(a>b) {
-			c=a+b;
-		}
-		else {
-			c=(a+b)*10;
-		}
-			}
-	
+	static void logic(int a, int b) {
+		int c = a+b ;
+		System.out.println("Addition of " +a+ "  and  "   +b+ " is : "  +c);
+	}
 }
 
 
@@ -19,8 +13,8 @@ public class Methos {
 	
 	
 	public static void main(String[] args) {
- 
-Methods.logic(10, 20);
+
+  Maths.logic(10, 250);
 	}
 
 }
